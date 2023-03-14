@@ -1,0 +1,425 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_2",
+                "sensor_name": "Stallingstraat - Radar",
+                "sensor_description": "Radarsensor",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Stallingstraat 2",
+                "location_huisnummer": 2,
+                "location_postcode": "4811JN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112730.33430000022,
+                    399618.1154999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_3",
+                "sensor_name": "Doelsteeg - Radar",
+                "sensor_description": "Radarsensor",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Doelsteeg/tegenover Concordiastraat 15A",
+                "location_huisnummer": 15,
+                "location_postcode": "4811NA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112644.45939999819,
+                    399644.2087999992
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_9",
+                "sensor_name": "Eindstraat 18 - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Eindstraat 22",
+                "location_huisnummer": 22,
+                "location_postcode": "4811KL"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112648.08289999887,
+                    399908.89460000023
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_10",
+                "sensor_name": "Nieuwstraat 7 - fietsenstalling - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Nieuwstraat 7/fietsenstalling",
+                "location_huisnummer": 7,
+                "location_postcode": "4811WX"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112586.98539999872,
+                    399955.3187999986
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_11",
+                "sensor_name": "Nieuwstraat 45 - parkeergarage",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Nieuwstraat 45/ingang parkeergarage",
+                "location_huisnummer": 45,
+                "location_postcode": "4811WV"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112431.00930000097,
+                    400068.251600001
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_12",
+                "sensor_name": "Tolbrugstraat 7 - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Tolbrugstraat 7/parkeergarage",
+                "location_huisnummer": 7,
+                "location_postcode": "4811WN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112386.35179999843,
+                    400096.123399999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_13",
+                "sensor_name": "Haven 7 - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Haven 8",
+                "location_huisnummer": 8,
+                "location_postcode": "4811WN"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112384.2109999992,
+                    400167.50030000135
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_14",
+                "sensor_name": "Hoge Brug / Vismarktstraat - lantaarnpaal - L",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Hoge Brug/lichtmast zijde Vismarktstraat",
+                "location_huisnummer": 28,
+                "location_postcode": "4811WE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112445.61899999902,
+                    400288.6865000017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_15",
+                "sensor_name": "Kraanstraat 1 - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Kraanstraat 1/zijde Kraanstraat",
+                "location_huisnummer": 1,
+                "location_postcode": "4811MA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112527.05209999904,
+                    400297.3158
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_20",
+                "sensor_name": "Molenstraat 6 - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Molenstraat 6",
+                "location_huisnummer": 6,
+                "location_postcode": "4811GS"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112843.76089999825,
+                    400077.7928000018
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_16",
+                "sensor_name": "Hoek Schoolstraat / Kraanstraat 1 - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Kraanstraat 1/zijde Schoolstraat",
+                "location_huisnummer": 1,
+                "location_postcode": "4811MA"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112527.85350000113,
+                    400296.2210999988
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_17",
+                "sensor_name": "Reigerstraat 2 - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Reigerstraat 2",
+                "location_huisnummer": 2,
+                "location_postcode": "4811XB"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112650.23519999906,
+                    400241.35929999873
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_18",
+                "sensor_name": "Sint Annastraat 14 - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "St. Annastraat 14",
+                "location_huisnummer": 14,
+                "location_postcode": "4811XK"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112781.81340000033,
+                    400199.5432999991
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_19",
+                "sensor_name": "Veemarktstraat 61 - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Veemarktstraat 59",
+                "location_huisnummer": 59,
+                "location_postcode": "4811ZD"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112899.03709999844,
+                    400191.9530999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_21",
+                "sensor_name": "Halstraat 40 - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Halstraat 40",
+                "location_huisnummer": 40,
+                "location_postcode": "4811HX"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112748.40740000084,
+                    399902.3090999983
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_4",
+                "sensor_name": "Molsparking - Radar",
+                "sensor_description": "Radarsensor",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Ginnekenstraat/steeg ri Molsparking",
+                "location_huisnummer": 61,
+                "location_postcode": "4811JE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112710.17590000108,
+                    399710.13980000094
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_5",
+                "sensor_name": "Bleekstraat - Radar",
+                "sensor_description": "Radarsensor",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Bleekstraat/zijkant Ginnekenstraat 34",
+                "location_huisnummer": 34,
+                "location_postcode": "4811KH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112672.70910000056,
+                    399767.9224999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_1",
+                "sensor_name": "Van Coothplein - Laser ",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Ginnekenstraat 130A",
+                "location_huisnummer": 130,
+                "location_postcode": "4811JK"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112733.24560000002,
+                    399573.90850000083
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_6",
+                "sensor_name": "Bleekstraat Hema - PIR",
+                "sensor_description": "Dubbele PIR",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Bleekstraat/achteringang HEMA",
+                "location_huisnummer": 38,
+                "location_postcode": "4811JH"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112591.14930000156,
+                    399737.8555999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_7",
+                "sensor_name": "Akkerstraat - Radar ",
+                "sensor_description": "Radarsensor",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Ginnekenstraat 15",
+                "location_huisnummer": 15,
+                "location_postcode": "4811JL"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112691.88740000129,
+                    399791.55209999904
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_8",
+                "sensor_name": "Houtmarkt Passage - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Ginnekenstraat 14",
+                "location_huisnummer": 14,
+                "location_postcode": "4811JG"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112668.92419999838,
+                    399822.19509999827
+                ]
+            }
+        }
+    ]
+}
