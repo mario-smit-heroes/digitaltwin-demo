@@ -1,0 +1,698 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_1",
+                "sensor_name": "Van Coothplein - Laser ",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Ginnekenstraat 130A",
+                "location_huisnummer": 130,
+                "location_postcode": "4811JK",
+                "last_reading_in": "15 (21:45 11-01-2023)",
+                "last_reading_out": "13 (21:45 11-01-2023)",
+                "in_60_min": null,
+                "out_60_min": null,
+                "balance_60_min": null,
+                "curr_day_total_in": null,
+                "curr_day_total_out": null,
+                "curr_week_max_in": null,
+                "curr_week_max_out": null,
+                "record_high_in": "43151 (Wednesday, 01-06-2022)",
+                "record_high_out": "49668 (Wednesday, 01-06-2022)",
+                "record_low_in": "111 (Friday, 03-06-2022)",
+                "record_low_out": "234 (Friday, 03-06-2022)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112733.24560000002,
+                    399573.90850000083
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_10",
+                "sensor_name": "Nieuwstraat 7 - fietsenstalling - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Nieuwstraat 7/fietsenstalling",
+                "location_huisnummer": 7,
+                "location_postcode": "4811WX",
+                "last_reading_in": "9 (08:30 22-03-2023)",
+                "last_reading_out": "9 (08:30 22-03-2023)",
+                "in_60_min": 36,
+                "out_60_min": 34,
+                "balance_60_min": 2,
+                "curr_day_total_in": 434,
+                "curr_day_total_out": 415,
+                "curr_week_max_in": "Tuesday (1573)",
+                "curr_week_max_out": "Tuesday (1408)",
+                "record_high_in": "22252 (Wednesday, 01-06-2022)",
+                "record_high_out": "21798 (Wednesday, 01-06-2022)",
+                "record_low_in": "434 (Wednesday, 22-03-2023)",
+                "record_low_out": "415 (Wednesday, 22-03-2023)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112586.98539999872,
+                    399955.3187999986
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_11",
+                "sensor_name": "Nieuwstraat 45 - parkeergarage",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Nieuwstraat 45/ingang parkeergarage",
+                "location_huisnummer": 45,
+                "location_postcode": "4811WV",
+                "last_reading_in": "17 (08:30 22-03-2023)",
+                "last_reading_out": "22 (08:30 22-03-2023)",
+                "in_60_min": 50,
+                "out_60_min": 44,
+                "balance_60_min": 6,
+                "curr_day_total_in": 100,
+                "curr_day_total_out": 115,
+                "curr_week_max_in": "Tuesday (2884)",
+                "curr_week_max_out": "Tuesday (2631)",
+                "record_high_in": "34550 (Wednesday, 01-06-2022)",
+                "record_high_out": "31303 (Wednesday, 01-06-2022)",
+                "record_low_in": "100 (Wednesday, 22-03-2023)",
+                "record_low_out": "115 (Wednesday, 22-03-2023)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112431.00930000097,
+                    400068.251600001
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_12",
+                "sensor_name": "Tolbrugstraat 7 - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Tolbrugstraat 7/parkeergarage",
+                "location_huisnummer": 7,
+                "location_postcode": "4811WN",
+                "last_reading_in": "32 (08:30 22-03-2023)",
+                "last_reading_out": "17 (08:30 22-03-2023)",
+                "in_60_min": 78,
+                "out_60_min": 68,
+                "balance_60_min": 10,
+                "curr_day_total_in": 186,
+                "curr_day_total_out": 194,
+                "curr_week_max_in": "Tuesday (2576)",
+                "curr_week_max_out": "Tuesday (2783)",
+                "record_high_in": "30468 (Wednesday, 01-06-2022)",
+                "record_high_out": "29490 (Wednesday, 01-06-2022)",
+                "record_low_in": "186 (Wednesday, 22-03-2023)",
+                "record_low_out": "194 (Wednesday, 22-03-2023)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112386.35179999843,
+                    400096.123399999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_13",
+                "sensor_name": "Haven 7 - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Haven 8",
+                "location_huisnummer": 8,
+                "location_postcode": "4811WN",
+                "last_reading_in": "6 (08:30 22-03-2023)",
+                "last_reading_out": "6 (08:30 22-03-2023)",
+                "in_60_min": 14,
+                "out_60_min": 28,
+                "balance_60_min": -14,
+                "curr_day_total_in": 2658,
+                "curr_day_total_out": 3487,
+                "curr_week_max_in": "Tuesday (6688)",
+                "curr_week_max_out": "Tuesday (7761)",
+                "record_high_in": "23458 (Saturday, 04-02-2023)",
+                "record_high_out": "26883 (Saturday, 04-02-2023)",
+                "record_low_in": "431 (Sunday, 12-06-2022)",
+                "record_low_out": "368 (Sunday, 12-06-2022)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112384.2109999992,
+                    400167.50030000135
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_14",
+                "sensor_name": "Hoge Brug / Vismarktstraat - lantaarnpaal - L",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Hoge Brug/lichtmast zijde Vismarktstraat",
+                "location_huisnummer": 28,
+                "location_postcode": "4811WE",
+                "last_reading_in": "54 (08:30 22-03-2023)",
+                "last_reading_out": "43 (08:30 22-03-2023)",
+                "in_60_min": 161,
+                "out_60_min": 124,
+                "balance_60_min": 37,
+                "curr_day_total_in": 1568,
+                "curr_day_total_out": 1246,
+                "curr_week_max_in": "Tuesday (10518)",
+                "curr_week_max_out": "Tuesday (8736)",
+                "record_high_in": "109125 (Wednesday, 01-06-2022)",
+                "record_high_out": "121197 (Wednesday, 01-06-2022)",
+                "record_low_in": "714 (Monday, 09-01-2023)",
+                "record_low_out": "876 (Friday, 25-11-2022)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112445.61899999902,
+                    400288.6865000017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_15",
+                "sensor_name": "Kraanstraat 1 - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Kraanstraat 1/zijde Kraanstraat",
+                "location_huisnummer": 1,
+                "location_postcode": "4811MA",
+                "last_reading_in": "22 (08:30 22-03-2023)",
+                "last_reading_out": "4 (08:30 22-03-2023)",
+                "in_60_min": 49,
+                "out_60_min": 28,
+                "balance_60_min": 21,
+                "curr_day_total_in": 467,
+                "curr_day_total_out": 472,
+                "curr_week_max_in": "Tuesday (1485)",
+                "curr_week_max_out": "Monday (1187)",
+                "record_high_in": "22840 (Wednesday, 01-06-2022)",
+                "record_high_out": "14988 (Wednesday, 01-06-2022)",
+                "record_low_in": "4 (Sunday, 12-06-2022)",
+                "record_low_out": "2 (Sunday, 12-06-2022)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112527.05209999904,
+                    400297.3158
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_16",
+                "sensor_name": "Hoek Schoolstraat / Kraanstraat 1 - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Kraanstraat 1/zijde Schoolstraat",
+                "location_huisnummer": 1,
+                "location_postcode": "4811MA",
+                "last_reading_in": "9 (08:30 22-03-2023)",
+                "last_reading_out": "2 (08:30 22-03-2023)",
+                "in_60_min": 12,
+                "out_60_min": 5,
+                "balance_60_min": 7,
+                "curr_day_total_in": 70,
+                "curr_day_total_out": 38,
+                "curr_week_max_in": "Tuesday (595)",
+                "curr_week_max_out": "Tuesday (634)",
+                "record_high_in": "11713 (Wednesday, 01-06-2022)",
+                "record_high_out": "7425 (Wednesday, 01-06-2022)",
+                "record_low_in": "0 (Saturday, 25-06-2022)",
+                "record_low_out": "7 (Saturday, 25-06-2022)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112527.85350000113,
+                    400296.2210999988
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_17",
+                "sensor_name": "Reigerstraat 2 - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Reigerstraat 2",
+                "location_huisnummer": 2,
+                "location_postcode": "4811XB",
+                "last_reading_in": "48 (08:30 22-03-2023)",
+                "last_reading_out": "26 (08:30 22-03-2023)",
+                "in_60_min": 159,
+                "out_60_min": 69,
+                "balance_60_min": 90,
+                "curr_day_total_in": 405,
+                "curr_day_total_out": 241,
+                "curr_week_max_in": "Tuesday (3296)",
+                "curr_week_max_out": "Tuesday (2955)",
+                "record_high_in": "37312 (Wednesday, 01-06-2022)",
+                "record_high_out": "36563 (Wednesday, 01-06-2022)",
+                "record_low_in": "405 (Wednesday, 22-03-2023)",
+                "record_low_out": "241 (Wednesday, 22-03-2023)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112650.23519999906,
+                    400241.35929999873
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_18",
+                "sensor_name": "Sint Annastraat 14 - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "St. Annastraat 14",
+                "location_huisnummer": 14,
+                "location_postcode": "4811XK",
+                "last_reading_in": "4 (22:15 10-11-2022)",
+                "last_reading_out": "8 (22:15 10-11-2022)",
+                "in_60_min": null,
+                "out_60_min": null,
+                "balance_60_min": null,
+                "curr_day_total_in": null,
+                "curr_day_total_out": null,
+                "curr_week_max_in": null,
+                "curr_week_max_out": null,
+                "record_high_in": "5175 (Saturday, 04-06-2022)",
+                "record_high_out": "4012 (Saturday, 04-06-2022)",
+                "record_low_in": "286 (Sunday, 12-06-2022)",
+                "record_low_out": "166 (Thursday, 10-11-2022)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112781.81340000033,
+                    400199.5432999991
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_19",
+                "sensor_name": "Veemarktstraat 61 - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Veemarktstraat 59",
+                "location_huisnummer": 59,
+                "location_postcode": "4811ZD",
+                "last_reading_in": "19 (00:00 01-10-2022)",
+                "last_reading_out": "34 (00:00 01-10-2022)",
+                "in_60_min": null,
+                "out_60_min": null,
+                "balance_60_min": null,
+                "curr_day_total_in": null,
+                "curr_day_total_out": null,
+                "curr_week_max_in": null,
+                "curr_week_max_out": null,
+                "record_high_in": "7126 (Thursday, 26-05-2022)",
+                "record_high_out": "5588 (Saturday, 28-05-2022)",
+                "record_low_in": "19 (Saturday, 01-10-2022)",
+                "record_low_out": "31 (Monday, 01-08-2022)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112899.03709999844,
+                    400191.9530999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_2",
+                "sensor_name": "Stallingstraat - Radar",
+                "sensor_description": "Radarsensor",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Stallingstraat 2",
+                "location_huisnummer": 2,
+                "location_postcode": "4811JN",
+                "last_reading_in": "1 (08:30 22-03-2023)",
+                "last_reading_out": "6 (08:30 22-03-2023)",
+                "in_60_min": 25,
+                "out_60_min": 24,
+                "balance_60_min": 1,
+                "curr_day_total_in": 46,
+                "curr_day_total_out": 50,
+                "curr_week_max_in": "Tuesday (334)",
+                "curr_week_max_out": "Tuesday (359)",
+                "record_high_in": "1361 (Friday, 03-06-2022)",
+                "record_high_out": "1379 (Friday, 03-06-2022)",
+                "record_low_in": "46 (Wednesday, 22-03-2023)",
+                "record_low_out": "50 (Wednesday, 22-03-2023)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112730.33430000022,
+                    399618.1154999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_20",
+                "sensor_name": "Molenstraat 6 - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Molenstraat 6",
+                "location_huisnummer": 6,
+                "location_postcode": "4811GS",
+                "last_reading_in": "23 (08:30 22-03-2023)",
+                "last_reading_out": "25 (08:30 22-03-2023)",
+                "in_60_min": 89,
+                "out_60_min": 66,
+                "balance_60_min": 23,
+                "curr_day_total_in": 438,
+                "curr_day_total_out": 353,
+                "curr_week_max_in": "Tuesday (2848)",
+                "curr_week_max_out": "Tuesday (2435)",
+                "record_high_in": "34114 (Wednesday, 01-06-2022)",
+                "record_high_out": "31954 (Wednesday, 01-06-2022)",
+                "record_low_in": "438 (Wednesday, 22-03-2023)",
+                "record_low_out": "353 (Wednesday, 22-03-2023)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112843.76089999825,
+                    400077.7928000018
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_21",
+                "sensor_name": "Halstraat 40 - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Halstraat 40",
+                "location_huisnummer": 40,
+                "location_postcode": "4811HX",
+                "last_reading_in": "20 (01:45 25-12-2022)",
+                "last_reading_out": "30 (01:45 25-12-2022)",
+                "in_60_min": null,
+                "out_60_min": null,
+                "balance_60_min": null,
+                "curr_day_total_in": null,
+                "curr_day_total_out": null,
+                "curr_week_max_in": null,
+                "curr_week_max_out": null,
+                "record_high_in": "25162 (Wednesday, 01-06-2022)",
+                "record_high_out": "27568 (Wednesday, 01-06-2022)",
+                "record_low_in": "313 (Sunday, 12-06-2022)",
+                "record_low_out": "378 (Sunday, 25-12-2022)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112748.40740000084,
+                    399902.3090999983
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_3",
+                "sensor_name": "Doelsteeg - Radar",
+                "sensor_description": "Radarsensor",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Doelsteeg/tegenover Concordiastraat 15A",
+                "location_huisnummer": 15,
+                "location_postcode": "4811NA",
+                "last_reading_in": "29 (08:30 22-03-2023)",
+                "last_reading_out": "16 (08:30 22-03-2023)",
+                "in_60_min": 77,
+                "out_60_min": 59,
+                "balance_60_min": 18,
+                "curr_day_total_in": 142,
+                "curr_day_total_out": 94,
+                "curr_week_max_in": "Tuesday (1497)",
+                "curr_week_max_out": "Tuesday (1396)",
+                "record_high_in": "2686 (Saturday, 28-05-2022)",
+                "record_high_out": "2208 (Saturday, 28-01-2023)",
+                "record_low_in": "142 (Wednesday, 22-03-2023)",
+                "record_low_out": "94 (Wednesday, 22-03-2023)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112644.45939999819,
+                    399644.2087999992
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_4",
+                "sensor_name": "Molsparking - Radar",
+                "sensor_description": "Radarsensor",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Ginnekenstraat/steeg ri Molsparking",
+                "location_huisnummer": 61,
+                "location_postcode": "4811JE",
+                "last_reading_in": "0 (08:15 22-03-2023)",
+                "last_reading_out": "1 (08:15 22-03-2023)",
+                "in_60_min": 4,
+                "out_60_min": 2,
+                "balance_60_min": 2,
+                "curr_day_total_in": 9,
+                "curr_day_total_out": 2,
+                "curr_week_max_in": "Tuesday (548)",
+                "curr_week_max_out": "Tuesday (437)",
+                "record_high_in": "1460 (Thursday, 28-10-2021)",
+                "record_high_out": "1431 (Thursday, 28-10-2021)",
+                "record_low_in": "9 (Wednesday, 22-03-2023)",
+                "record_low_out": "2 (Wednesday, 22-03-2023)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112710.17590000108,
+                    399710.13980000094
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_5",
+                "sensor_name": "Bleekstraat - Radar",
+                "sensor_description": "Radarsensor",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Bleekstraat/zijkant Ginnekenstraat 34",
+                "location_huisnummer": 34,
+                "location_postcode": "4811KH",
+                "last_reading_in": "7 (08:30 22-03-2023)",
+                "last_reading_out": "5 (08:30 22-03-2023)",
+                "in_60_min": 16,
+                "out_60_min": 13,
+                "balance_60_min": 3,
+                "curr_day_total_in": 39,
+                "curr_day_total_out": 41,
+                "curr_week_max_in": "Tuesday (488)",
+                "curr_week_max_out": "Tuesday (617)",
+                "record_high_in": "993 (Thursday, 02-06-2022)",
+                "record_high_out": "1104 (Thursday, 02-06-2022)",
+                "record_low_in": "39 (Wednesday, 22-03-2023)",
+                "record_low_out": "41 (Wednesday, 22-03-2023)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112672.70910000056,
+                    399767.9224999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_6",
+                "sensor_name": "Bleekstraat Hema - PIR",
+                "sensor_description": "Dubbele PIR",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Bleekstraat/achteringang HEMA",
+                "location_huisnummer": 38,
+                "location_postcode": "4811JH",
+                "last_reading_in": "21 (11:45 30-11-2022)",
+                "last_reading_out": "19 (11:45 30-11-2022)",
+                "in_60_min": null,
+                "out_60_min": null,
+                "balance_60_min": null,
+                "curr_day_total_in": null,
+                "curr_day_total_out": null,
+                "curr_week_max_in": null,
+                "curr_week_max_out": null,
+                "record_high_in": "483 (Saturday, 25-06-2022)",
+                "record_high_out": "689 (Saturday, 26-11-2022)",
+                "record_low_in": "9 (Sunday, 02-01-2022)",
+                "record_low_out": "2 (Sunday, 02-01-2022)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112591.14930000156,
+                    399737.8555999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_7",
+                "sensor_name": "Akkerstraat - Radar ",
+                "sensor_description": "Radarsensor",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Ginnekenstraat 15",
+                "location_huisnummer": 15,
+                "location_postcode": "4811JL",
+                "last_reading_in": "8 (08:15 22-03-2023)",
+                "last_reading_out": "4 (08:15 22-03-2023)",
+                "in_60_min": 24,
+                "out_60_min": 14,
+                "balance_60_min": 10,
+                "curr_day_total_in": 40,
+                "curr_day_total_out": 28,
+                "curr_week_max_in": "Tuesday (546)",
+                "curr_week_max_out": "Tuesday (514)",
+                "record_high_in": "974 (Friday, 25-11-2022)",
+                "record_high_out": "970 (Saturday, 18-02-2023)",
+                "record_low_in": "40 (Wednesday, 22-03-2023)",
+                "record_low_out": "28 (Wednesday, 22-03-2023)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112691.88740000129,
+                    399791.55209999904
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_8",
+                "sensor_name": "Houtmarkt Passage - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Ginnekenstraat 14",
+                "location_huisnummer": 14,
+                "location_postcode": "4811JG",
+                "last_reading_in": "50 (21:45 11-01-2023)",
+                "last_reading_out": "36 (21:45 11-01-2023)",
+                "in_60_min": null,
+                "out_60_min": null,
+                "balance_60_min": null,
+                "curr_day_total_in": null,
+                "curr_day_total_out": null,
+                "curr_week_max_in": null,
+                "curr_week_max_out": null,
+                "record_high_in": "57966 (Wednesday, 01-06-2022)",
+                "record_high_out": "55934 (Wednesday, 01-06-2022)",
+                "record_low_in": "106 (Tuesday, 27-09-2022)",
+                "record_low_out": "59 (Tuesday, 27-09-2022)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112668.92419999838,
+                    399822.19509999827
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "sensor_id": "Las_9",
+                "sensor_name": "Eindstraat 18 - Laser",
+                "sensor_description": "Depth Sensor Stereoscopic",
+                "datastream_isactive": "1",
+                "location_woonplaats": "Breda",
+                "location_description": "Eindstraat 22",
+                "location_huisnummer": 22,
+                "location_postcode": "4811KL",
+                "last_reading_in": "17 (08:30 22-03-2023)",
+                "last_reading_out": "27 (08:30 22-03-2023)",
+                "in_60_min": 64,
+                "out_60_min": 60,
+                "balance_60_min": 4,
+                "curr_day_total_in": 8301,
+                "curr_day_total_out": 5556,
+                "curr_week_max_in": "Tuesday (22763)",
+                "curr_week_max_out": "Tuesday (17656)",
+                "record_high_in": "47531 (Wednesday, 01-06-2022)",
+                "record_high_out": "58226 (Wednesday, 01-06-2022)",
+                "record_low_in": "41 (Monday, 23-05-2022)",
+                "record_low_out": "61 (Monday, 23-05-2022)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112648.08289999887,
+                    399908.89460000023
+                ]
+            }
+        }
+    ]
+}
