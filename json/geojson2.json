@@ -24,7 +24,11 @@
                 "record_high_in": "43151 (Wednesday, 01-06-2022)",
                 "record_high_out": "49668 (Wednesday, 01-06-2022)",
                 "record_low_in": "111 (Friday, 03-06-2022)",
-                "record_low_out": "234 (Friday, 03-06-2022)"
+                "record_low_out": "234 (Friday, 03-06-2022)",
+                "street_coordinates": [
+                    [112667.36008192846, 399850.06040664756],
+                    [112679.12008193877, 399797.56040661404]
+                ]
             },
             "geometry": {
                 "type": "Point",
@@ -57,7 +61,8 @@
                 "record_high_in": "22252 (Wednesday, 01-06-2022)",
                 "record_high_out": "21798 (Wednesday, 01-06-2022)",
                 "record_low_in": "434 (Wednesday, 22-03-2023)",
-                "record_low_out": "415 (Wednesday, 22-03-2023)"
+                "record_low_out": "415 (Wednesday, 22-03-2023)",
+                "street_coordinates": [[112607.72008187437, 399963.8804067256], [112564.04008183355, 399952.9604067154]]
             },
             "geometry": {
                 "type": "Point",
@@ -90,7 +95,8 @@
                 "record_high_in": "34550 (Wednesday, 01-06-2022)",
                 "record_high_out": "31303 (Wednesday, 01-06-2022)",
                 "record_low_in": "100 (Wednesday, 22-03-2023)",
-                "record_low_out": "115 (Wednesday, 22-03-2023)"
+                "record_low_out": "115 (Wednesday, 22-03-2023)",
+                "street_coordinates": [[112430.48008171086, 400082.3204068026], [112433.00008171279, 400049.5604067768]]
             },
             "geometry": {
                 "type": "Point",
@@ -123,7 +129,8 @@
                 "record_high_in": "30468 (Wednesday, 01-06-2022)",
                 "record_high_out": "29490 (Wednesday, 01-06-2022)",
                 "record_low_in": "186 (Wednesday, 22-03-2023)",
-                "record_low_out": "194 (Wednesday, 22-03-2023)"
+                "record_low_out": "194 (Wednesday, 22-03-2023)",
+                "street_coordinates": [[112371.26008165599, 400105.00040681235], [112405.28008168744, 400092.4004068033]]
             },
             "geometry": {
                 "type": "Point",
@@ -156,7 +163,8 @@
                 "record_high_in": "23458 (Saturday, 04-02-2023)",
                 "record_high_out": "26883 (Saturday, 04-02-2023)",
                 "record_low_in": "431 (Sunday, 12-06-2022)",
-                "record_low_out": "368 (Sunday, 12-06-2022)"
+                "record_low_out": "368 (Sunday, 12-06-2022)",
+                "street_coordinates": [[112370.00008165542, 400157.0804068479], [112396.88008168107, 400197.4004068758]]
             },
             "geometry": {
                 "type": "Point",
@@ -189,7 +197,8 @@
                 "record_high_in": "109125 (Wednesday, 01-06-2022)",
                 "record_high_out": "121197 (Wednesday, 01-06-2022)",
                 "record_low_in": "714 (Monday, 09-01-2023)",
-                "record_low_out": "876 (Friday, 25-11-2022)"
+                "record_low_out": "876 (Friday, 25-11-2022)",
+                "street_coordinates": [[112429.64008171236, 400289.3804069358], [112486.76008176542, 400262.50040692004]]
             },
             "geometry": {
                 "type": "Point",
@@ -222,7 +231,8 @@
                 "record_high_in": "22840 (Wednesday, 01-06-2022)",
                 "record_high_out": "14988 (Wednesday, 01-06-2022)",
                 "record_low_in": "4 (Sunday, 12-06-2022)",
-                "record_low_out": "2 (Sunday, 12-06-2022)"
+                "record_low_out": "2 (Sunday, 12-06-2022)",
+                "street_coordinates": [[112527.92008180443, 400328.44040696364], [112530.44008180597, 400268.8004069235]]
             },
             "geometry": {
                 "type": "Point",
@@ -255,7 +265,8 @@
                 "record_high_in": "11713 (Wednesday, 01-06-2022)",
                 "record_high_out": "7425 (Wednesday, 01-06-2022)",
                 "record_low_in": "0 (Saturday, 25-06-2022)",
-                "record_low_out": "7 (Saturday, 25-06-2022)"
+                "record_low_out": "7 (Saturday, 25-06-2022)",
+                "street_coordinates": [[112527.92008180443, 400328.44040696364], [112530.44008180597, 400268.8004069235]]
             },
             "geometry": {
                 "type": "Point",
@@ -288,7 +299,8 @@
                 "record_high_in": "37312 (Wednesday, 01-06-2022)",
                 "record_high_out": "36563 (Wednesday, 01-06-2022)",
                 "record_low_in": "405 (Wednesday, 22-03-2023)",
-                "record_low_out": "241 (Wednesday, 22-03-2023)"
+                "record_low_out": "241 (Wednesday, 22-03-2023)",
+                "street_coordinates": [[112638.80008190655, 400237.72040690563], [112683.32008194795, 400244.44040691335]]
             },
             "geometry": {
                 "type": "Point",
@@ -321,7 +333,8 @@
                 "record_high_in": "5175 (Saturday, 04-06-2022)",
                 "record_high_out": "4012 (Saturday, 04-06-2022)",
                 "record_low_in": "286 (Sunday, 12-06-2022)",
-                "record_low_out": "166 (Thursday, 10-11-2022)"
+                "record_low_out": "166 (Thursday, 10-11-2022)",
+                "street_coordinates": [[112772.36008203047, 400220.92040689307], [112781.60008203879, 400185.6404068743]]
             },
             "geometry": {
                 "type": "Point",
@@ -354,7 +367,8 @@
                 "record_high_in": "7126 (Thursday, 26-05-2022)",
                 "record_high_out": "5588 (Saturday, 28-05-2022)",
                 "record_low_in": "19 (Saturday, 01-10-2022)",
-                "record_low_out": "31 (Monday, 01-08-2022)"
+                "record_low_out": "31 (Monday, 01-08-2022)",
+                "street_coordinates": [[112912.64008216071, 400204.1204068867], [112893.32008214256, 400183.1204068727]]
             },
             "geometry": {
                 "type": "Point",
@@ -387,7 +401,8 @@
                 "record_high_in": "1361 (Friday, 03-06-2022)",
                 "record_high_out": "1379 (Friday, 03-06-2022)",
                 "record_low_in": "46 (Wednesday, 22-03-2023)",
-                "record_low_out": "50 (Wednesday, 22-03-2023)"
+                "record_low_out": "50 (Wednesday, 22-03-2023)",
+                "street_coordinates": [[112726.16008198049, 399619.9004064974], [112739.18008199241, 399623.68040649896]]
             },
             "geometry": {
                 "type": "Point",
@@ -420,7 +435,8 @@
                 "record_high_in": "34114 (Wednesday, 01-06-2022)",
                 "record_high_out": "31954 (Wednesday, 01-06-2022)",
                 "record_low_in": "438 (Wednesday, 22-03-2023)",
-                "record_low_out": "353 (Wednesday, 22-03-2023)"
+                "record_low_out": "353 (Wednesday, 22-03-2023)",
+                "street_coordinates": [[112855.52008210584, 400069.7204067927], [112828.64008208137, 400096.60040681175]]
             },
             "geometry": {
                 "type": "Point",
@@ -453,7 +469,8 @@
                 "record_high_in": "25162 (Wednesday, 01-06-2022)",
                 "record_high_out": "27568 (Wednesday, 01-06-2022)",
                 "record_low_in": "313 (Sunday, 12-06-2022)",
-                "record_low_out": "378 (Sunday, 25-12-2022)"
+                "record_low_out": "378 (Sunday, 25-12-2022)",
+                "street_coordinates": [[112753.04008200867, 399900.880406684], [112740.44008199732, 399931.9604067019]]
             },
             "geometry": {
                 "type": "Point",
@@ -486,7 +503,8 @@
                 "record_high_in": "2686 (Saturday, 28-05-2022)",
                 "record_high_out": "2208 (Saturday, 28-01-2023)",
                 "record_low_in": "142 (Wednesday, 22-03-2023)",
-                "record_low_out": "94 (Wednesday, 22-03-2023)"
+                "record_low_out": "94 (Wednesday, 22-03-2023)",
+                "street_coordinates": [[112639.64008190017, 399647.2004065158], [112650.56008191014, 399641.3204065105]]
             },
             "geometry": {
                 "type": "Point",
@@ -519,7 +537,8 @@
                 "record_high_in": "1460 (Thursday, 28-10-2021)",
                 "record_high_out": "1431 (Thursday, 28-10-2021)",
                 "record_low_in": "9 (Wednesday, 22-03-2023)",
-                "record_low_out": "2 (Wednesday, 22-03-2023)"
+                "record_low_out": "2 (Wednesday, 22-03-2023)",
+                "street_coordinates": [[112701.3800819583, 399698.0204065445], [112696.3400819539, 399722.8004065677]]
             },
             "geometry": {
                 "type": "Point",
@@ -552,7 +571,8 @@
                 "record_high_in": "993 (Thursday, 02-06-2022)",
                 "record_high_out": "1104 (Thursday, 02-06-2022)",
                 "record_low_in": "39 (Wednesday, 22-03-2023)",
-                "record_low_out": "41 (Wednesday, 22-03-2023)"
+                "record_low_out": "41 (Wednesday, 22-03-2023)",
+                "street_coordinates": [[112664.84008192517, 399768.1604065941], [112679.96008193915, 399771.9404065918]]
             },
             "geometry": {
                 "type": "Point",
@@ -585,7 +605,8 @@
                 "record_high_in": "483 (Saturday, 25-06-2022)",
                 "record_high_out": "689 (Saturday, 26-11-2022)",
                 "record_low_in": "9 (Sunday, 02-01-2022)",
-                "record_low_out": "2 (Sunday, 02-01-2022)"
+                "record_low_out": "2 (Sunday, 02-01-2022)",
+                "street_coordinates": [[112577.48008184356, 399752.20040657965], [112593.02008185814, 399755.140406581]]
             },
             "geometry": {
                 "type": "Point",
@@ -618,7 +639,8 @@
                 "record_high_in": "974 (Friday, 25-11-2022)",
                 "record_high_out": "970 (Saturday, 18-02-2023)",
                 "record_low_in": "40 (Wednesday, 22-03-2023)",
-                "record_low_out": "28 (Wednesday, 22-03-2023)"
+                "record_low_out": "28 (Wednesday, 22-03-2023)",
+                "street_coordinates": [[112690.04008194887, 399791.6804066106], [112708.52008196607, 399795.88040661754]]
             },
             "geometry": {
                 "type": "Point",
@@ -651,7 +673,11 @@
                 "record_high_in": "57966 (Wednesday, 01-06-2022)",
                 "record_high_out": "55934 (Wednesday, 01-06-2022)",
                 "record_low_in": "106 (Tuesday, 27-09-2022)",
-                "record_low_out": "59 (Tuesday, 27-09-2022)"
+                "record_low_out": "59 (Tuesday, 27-09-2022)",
+                "street_coordinates": [
+                    [112666.52008192783, 399850.4804066476],
+                    [112681.64008194083, 399784.12040660414]
+                ]
             },
             "geometry": {
                 "type": "Point",
@@ -684,7 +710,8 @@
                 "record_high_in": "47531 (Wednesday, 01-06-2022)",
                 "record_high_out": "58226 (Wednesday, 01-06-2022)",
                 "record_low_in": "41 (Monday, 23-05-2022)",
-                "record_low_out": "61 (Monday, 23-05-2022)"
+                "record_low_out": "61 (Monday, 23-05-2022)",
+                "street_coordinates": [[112657.28008191937, 399883.2404066671], [112638.80008190291, 399946.2404067114]]
             },
             "geometry": {
                 "type": "Point",

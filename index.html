@@ -31,49 +31,77 @@
             }
         }
 
+        const RDnew = new L.Proj.CRS('EPSG:28992', '+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +towgs84=565.2369,50.0087,465.658,-0.406857330322398,0.350732676542563,-1.8703473836068,4.0812 +no_defs', {
+            transformation: L.Transformation(-1, -1, 0, 0),
+            resolutions: [3440.640, 1720.320, 860.160, 430.080, 215.040, 107.520, 53.760, 26.880, 13.440, 6.720, 3.360, 1.680, 0.840, 0.420],
+            origin: [-285401.920, 903401.920],
+            bounds: L.bounds([-285401.920, 903401.920], [595401.920, 22598.080])
+        });
+
+        function calculateAngle(latlng1, latlng2) {
+            const dx = latlng2.lng - latlng1.lng;
+            const dy = latlng2.lat - latlng1.lat;
+            const angle = Math.atan2(dy, dx) * (180 / Math.PI);
+            return angle;
+        }
+
+        function extractPeopleCount(str) {
+            const match = str.match(/(\d+)/);
+            return match ? parseInt(match[1], 10) : null;
+        }
+
         function onEachFeature(feature, layer) {
-            // does this feature have a property named popupContent?
+            //does this feature have a property named popupContent?
             if (feature.properties) {
-                layer.bindPopup('<h2>'+feature.properties.sensor_name+'</h2><h3>Voetgangers</h3>Laatste meting: '+feature.properties.last_reading_in+'<br>Afgelopen uur: '+feature.properties.in_60_min+'<br>Vandaag: '+feature.properties.curr_day_total_in+'<br><h3>Overig</h3>Actief: '+(feature.properties.datastream_isactive==1?'Yes':'No')+'<br>Type: '+feature.properties.sensor_description);
+                layer.bindPopup('<h2>'+feature.properties.sensor_name+'</h2><h3>Voetgangers</h3>Laatste meting: '+
+                feature.properties.last_reading_in+'<br>Afgelopen uur: '+feature.properties.in_60_min+'<br>Vandaag: '+
+                feature.properties.curr_day_total_in+'<br><h3>Overig</h3>Actief: '+(feature.properties.datastream_isactive==1?'Yes':'No')+
+                '<br>Type: '+feature.properties.sensor_description);
             }
         }
-        const CALM = 120;
-        const MODERATE = 360;
-        const calmIcon = L.divIcon ({
-            html: '<i class="fa-solid fa-person-walking fa-2xl" style="color:#00c000"></i>',
-            iconAnchor: [8,16],
-            popupAnchor: [8,-24]
-        });
-        const moderateIcon = L.divIcon ({
-            html: '<i class="fa-solid fa-person-walking fa-2xl" style="color:#c06000"></i>',
-            iconAnchor: [8,16],
-            popupAnchor: [8,-24]
-        });
-        const busyIcon = L.divIcon ({
-            html: '<i class="fa-solid fa-person-walking fa-2xl" style="color:#c00000"></i>',
-            iconAnchor: [8,16],
-            popupAnchor: [8,-24]
-        });
-        function onEachMarker (feature, latlng) {
-            if (feature.properties.in_60_min<CALM) 
-                return L.marker (latlng, {icon:calmIcon});
-            if (feature.properties.in_60_min>=CALM && feature.properties.in_60_min<MODERATE) 
-                return L.marker (latlng, {icon:moderateIcon});
-            if (feature.properties.in_60_min>=MODERATE) 
-                return L.marker (latlng, {icon:busyIcon});
+
+        function getColor(totalPeople) {
+            const minPeople = 0;
+            const maxPeople = 350;
+            const ratio = Math.min(Math.max((totalPeople - minPeople) / (maxPeople - minPeople), 0), 1);
+            const r = Math.floor(255 * ratio);
+            const g = Math.floor(255 * (1 - ratio));
+            const b = 0;
+            return `rgb(${r}, ${g}, ${b})`;
+        }
+
+        const CALM_THRESHOLD = 100;
+        const MODERATE_THRESHOLD = 200;
+        const BUSY_THRESHOLD = 300;
+        const LENGTH_MULTIPLIER = 0.5;
+
+        function onEachMarker(feature, latlng) {
+            const streetCoordinates = feature.properties?.street_coordinates;
+            const lastReadingIn = extractPeopleCount(feature.properties.last_reading_in);
+            const lastReadingOut = extractPeopleCount(feature.properties.last_reading_out);
+            const isMorePeopleIn = lastReadingIn > lastReadingOut;
+            const pointA = RDnew.projection.unproject(L.point(streetCoordinates[0]));
+            const pointB = RDnew.projection.unproject(L.point(streetCoordinates[1]));
+            angle = calculateAngle(isMorePeopleIn ? pointA : pointB, isMorePeopleIn ? pointB : pointA);
+
+            const totalPeople = feature.properties.in_60_min + feature.properties.out_60_min;
+            const arrowColor = getColor(totalPeople);
+
+            const difference = Math.abs(lastReadingIn - lastReadingOut);
+            const faArrowClass = difference === 0 ? "fa-exchange-alt" : difference < 10 ? "fa-angle-right" : " fa-angle-double-right"
+            
+            const arrowIcon =  L.divIcon ({
+                html: `<i class="fas ${faArrowClass} fa-2x" style="color:${arrowColor}; transform: rotate(${-angle}deg);"></i>`,
+                iconAnchor: [8, 16],
+                popupAnchor: [8, -24],
+                fillColor: arrowColor,
+            });
+
+            return L.marker(latlng, { icon: arrowIcon });
         }
 
         async function main ()
         {
-            // Define the RDnew projection
-            const RDnew = new L.Proj.CRS('EPSG:28992', '+proj=sterea +lat_0=52.15616055555555 +lon_0=5.38763888888889 +k=0.9999079 +x_0=155000 +y_0=463000 +ellps=bessel +units=m +towgs84=565.2369,50.0087,465.658,-0.406857330322398,0.350732676542563,-1.8703473836068,4.0812 +no_defs', {
-                    transformation: L.Transformation(-1, -1, 0, 0),
-                    resolutions: [3440.640, 1720.320, 860.160, 430.080, 215.040, 107.520, 53.760, 26.880, 13.440, 6.720, 3.360, 1.680, 0.840, 0.420],
-                    origin: [-285401.920, 903401.920],
-                    bounds: L.bounds([-285401.920, 903401.920], [595401.920, 22598.080])
-                }
-            );
-
             // 3D BAG
             const bag = L.tileLayer.wms ('https://data.3dbag.nl/api/BAG3D_v2/wms', {
                 'layers':'lod22',
@@ -113,12 +141,29 @@
                 'transparent': true,
                 'opacity': 0.5
             });
-
+            
+            const fixedZoomLevel = 12;
             //initialize the map
             const map = L.map('map', {
                 crs: RDnew,
-                layers: [pdokachtergrondkaart,voetgangers]
-            }).setView([51.5881823, 4.7753169], 12);
+                layers: [pdokachtergrondkaart,voetgangers],
+                zoom: fixedZoomLevel,
+                 minZoom: fixedZoomLevel,
+                maxZoom: fixedZoomLevel,
+            }).setView([51.58700298546622, 4.777057942297698], 12);
+
+            // let prevCoord
+            // map.on('click', (e) => {
+            //     const rdnewCoords = RDnew.projection.project(e.latlng);
+            //     // console.log('Clicked RDnew coordinates:', rdnewCoords, e.latlng);
+            //     if (prevCoord){
+            //         console.log(`"street_coordinates": [${prevCoord}, [${rdnewCoords.x}, ${rdnewCoords.y}]]`);
+            //         prevCoord = ""
+            //     } else {
+            //         console.log("First coordinates set")
+            //         prevCoord = `[${rdnewCoords.x}, ${rdnewCoords.y}]`
+            //     }
+            // });
 
             var baseMaps = {
                 "Basisregistratie Topografie": pdokachtergrondkaart
